@@ -1,0 +1,145 @@
+header{
+    background-color: rgb(56, 213, 213);
+   
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    }
+    h1{
+        color: blue;
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+    }
+    *{
+        font-size: 20px;
+    }
+
+    
+    
+    
+
+header h1{ margin: 0;
+    color:white;
+    margin-bottom: 20px;
+}
+body{
+    margin: 0;
+   
+} 
+ a{
+    text-decoration: none;
+    
+}
+.button{
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+   margin-top: 10px;
+
+   
+
+
+}
+.button:hover{
+    background-color: blue;
+    color: white;
+    transition: all 0.5s ease-in-out 0s;
+    transform: translateY(-05px);
+
+    ;
+    
+}
+img {
+   height: 300px; 
+  width: 300px;
+  border-radius: 50%;
+}
+
+
+
+
+section{
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 10px;
+    height: 100vh;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+
+}
+.submit{
+    background-color: blue;
+    color: white;
+    color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 15px;
+  border: 2px solid greenyellow;
+
+}
+.submit:hover{
+    background-color:aqua;
+    color:black;
+}
+ 
+  
+ 
+
+ 
+  
+    
+
+
+.fixedbutton{
+    height: 50px;
+    width: 70px;
+    border-radius: 50%;
+    position: fixed;
+    right:50px;
+    bottom: 50px;
+    border: 3px solid orange;
+    
+    background-color: blue;
+    cursor: pointer;
+   
+
+}
+.fixedbutton:hover{
+   background-color: aqua;
+   transform: translateY(+3px);
+
+}
+footer{
+    background-color: black;
+    height: 10vh;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+    
+
+
+
