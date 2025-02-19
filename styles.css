@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(56, 213, 213);
+    background-color: rgb(40, 6, 140);
    
     height: 100vh;
     color: white;
@@ -10,14 +10,24 @@ header{
     flex-wrap: wrap;
 
     }
+    .adjust{
+        padding-left: 200px;
+        
+    }
     h1{
-        color: blue;
+        color: rgb(22, 22, 213);
         font-weight: bold;
         text-align: center;
         font-size: 30px;
     }
     *{
         font-size: 20px;
+        flex: wrap;
+       
+    }
+    .modi{
+        display: flex;
+        align-items: center;
     }
 
     
@@ -25,8 +35,11 @@ header{
     
 
 header h1{ margin: 0;
-    color:white;
-    margin-bottom: 20px;
+    color:rgb(3, 147, 230);
+    margin-bottom: 30px;
+    height: 150px;
+padding: 10PX;
+
 }
 body{
     margin: 0;
@@ -44,13 +57,14 @@ body{
     cursor: pointer;
     margin: 10px;
    margin-top: 10px;
+   box-shadow: 0px 0px 10px 05px aqua;
 
    
 
 
 }
 .button:hover{
-    background-color: blue;
+    background-color:maroon;
     color: white;
     transition: all 0.5s ease-in-out 0s;
     transform: translateY(-05px);
@@ -62,6 +76,9 @@ img {
    height: 300px; 
   width: 300px;
   border-radius: 50%;
+  border: 04px aqua solid;
+  box-shadow:0px 0px 20px 5px rgb(124, 199, 237);
+
 }
 
 
@@ -72,7 +89,7 @@ section{
     margin: 20px;
     margin-bottom: 10px;
     height: 100vh;
-    background-color: lightgrey;
+    background-color: rgb(124, 10, 201);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,8 +112,24 @@ section{
 .submit:hover{
     background-color:aqua;
     color:black;
+    
 }
- 
+.skills{
+  
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 100%;
+
+}
+ .project{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 100%;
+
+
+ }
   
  
 
@@ -133,6 +166,12 @@ footer{
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+}
+section img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 05px  aqua solid;
 }
 
 
